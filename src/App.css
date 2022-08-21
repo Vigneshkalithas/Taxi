@@ -1,38 +1,219 @@
-.App {
-  text-align: center;
+ @media (min-width:0px) and (max-width:900px) {
+.icon1{
+    display: none;
+}  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+@media (min-width:900px) and (max-width:1920px) {
+    .icon2{
+        display: none;
+    }  
+    }
+
+
+    /* home page  */
+
+/* .c-1{
+    background-color: grey;
+} */
+   .Home-titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    height: 100vh;
+    color: #333333;
+    
+    
+   }
+   .Home-titles h1{
+    font-size: 52px;
+    line-height: 53px;
+   }
+   .Home-titles p{
+    font-size: 20px;
+    letter-spacing:0.1px;
+
+   }
+   
+   .home-image{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    height: 100vh;
+
+   }
+    
+.home-headlines{
+    font-size: 30px;
+    line-height: 30px;
+}
+.text-taxi{
+    /* text-decoration: underline; */
+    /* text-underline-offset: 5px; */
+    color: #0275d8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+/* login page  */
+
+
+  /* login page  */
+
+
+  section{
+    text-align: center;
+    background-color:white;
+    color:black;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius:8px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
-}
+   
+   
+   
+   .image-login{
+     background:url("https://source.unsplash.com/K4mSJ7kc0As/600x800");
+     background-size:cover;
+   
+   }
+   
+   
+   ::placeholder{
+     font-weight: 350;
+     font-size: 13px;
+   }
+   .loginhead{
+     margin-top: 18px;
+     font-family: sans-serif;
+     margin-bottom: 35px;
+     font-weight: bold;
+   }
+   .content-login{
+     width:400px;
+     height: 450px;
+   }
+   
+   
+   .form-group {
+     margin-bottom: 1rem;
+   }
+   .form.user .form-control-user {
+     font-size: .8rem;
+     border-radius: 10rem;
+     padding: 1.5rem 1rem;
+   }
+   .form-control{
+     display: block;
+     width: 100%;
+     height: calc(1.5em + 0.75rem + 2px);
+     padding: 0.375rem 0.75rem;
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 1.5;
+     color: #6e707e;
+     background-color: #fff;
+     background-clip: padding-box;
+     border: 1px solid #d1d3e2;
+     border-radius: 10rem;
+     transition: border-color .15s ease-in-out,
+     box-shadow .15s ease-in-out;
+   }
+   
+   .login-container{
+     display:flex;
+     justify-content: center;
+     align-content: center;
+     margin-top: 22px;
+     background-color: white;
+   
+   }
+   
+   
+   .form-box{
+     width:400px;
+     height:450px;
+     padding:20px;
+     display:flex;
+     flex-direction:column;
+     justify-content:flex-start;
+     font-size: .8rem;
+     border-radius: 10px;
+     padding: 1.5rem 1rem;
+   }
+   .message{
+     opacity: 0.5;
+     font-size: 15px;
+     margin-bottom: 10px;
+   }
+   
+   .login-form{
+     border-radius: 18px;
+     font-size: 14.5px;
+   }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+   /* 404 box  */
 
-.App-link {
-  color: #61dafb;
-}
+   .errorBox{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+/* width: 100vw; */
+   }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+   /* help container  */
+
+   .helpContainer{
+ text-align: center;
+ background:url(https://maxst.icons8.com/vue-static/landings/page-index/hero-gradient.jpg);
+ background-repeat: no-repeat;
+ height: 100vh;
+   }
+   .helpContainer h1{
+     font-size: 50px;
+     text-align: center;
+   }
+   .helpLogo{
+    font-size: 30px;
+   }
+   .center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+
+   
+   /* userViewContainer */
+
+   .userViewContainer{
+    /* text-align: center; */
+ background:url(https://hips.hearstapps.com/housebeautiful.cdnds.net/16/38/2048x1024/landscape-1474319956-cruchley-map-of-the-world-1853.jpg?resize=1200:*);
+ background-repeat: no-repeat;
+ height: 100vh;
+ width: 100vw;
+
+   }
+
+   .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
+   }
+
+   .whereText{
+    letter-spacing: 1px;
+   }
+
+
+   
