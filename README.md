@@ -3,10 +3,10 @@ Taxi App
 
 fontEnd
 
-- github - 
-- netlify -
+- github - https://github.com/Vigneshkalithas/Taxi
+- netlify - https://deluxe-stardust-d6088d.netlify.app/
 
 Backend
 
-- github - 
+- github - https://github.com/Vigneshkalithas/Taxi-Server
 - vercel - 
